@@ -3,14 +3,25 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+
+//Austin Lowe
+//au965898
+
+//4/20/11
+
+// Candy Store
+
+
 public class CandyStore {
+	
+	
 	
 	static int[] knapsack(Scanner input, int n, int m)
 	{
 		int[] nKnapsack = new int[m + 1];
 
 
-		for (int i=0; i<n; i++)
+		for (int i=0; i < n; i++)
 		{
 
 			int calories = input.nextInt();
